@@ -84,14 +84,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    top:20,
+    top:30,
   },
   topBar: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     backgroundColor: '#fff',
-    padding: 10,
+    padding: 20,
     borderBottomWidth: 1,
     borderBottomColor: '#ccc',
   },
@@ -129,6 +129,7 @@ const styles = StyleSheet.create({
     marginRight:15,
     alignContent:'center',
     alignItems: 'flex-start',
+    shadowOpacity: 0.2,
     elevation: 3, // Add shadow on Android
   },
   statusBar: {
